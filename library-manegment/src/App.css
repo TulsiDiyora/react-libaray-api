@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dropdown-item-text {
+    cursor: pointer;
+}
+
+body {
+    background-image: url('./assets/lbg.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    color: white;
+}
+
+.library-form {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.form-label {
+    color: white;
+    font-weight: 600;
+}
+
+.title-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+.error {
+    font-size: 30px;
+    color: white;
+}
+
+.book-btn {
+    background-color: #f3f3f3;
+    color: #8B4513;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #8B4513;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-weight: 700;
+}
+
+.book-btn:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+.library-loader {
+    border: 8px solid rgba(255, 215, 0, 0.3);
+    border-top: 8px solid #FFD700;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #e0e0e0;
+}
